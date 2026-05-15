@@ -1,5 +1,5 @@
 import { Injectable, HttpException, HttpStatus } from '@nestjs/common';
-import * as bcrypt from 'bcrypt'; // Adicione este import no topo
+import * as bcrypt from 'bcrypt'; 
 import { Usuario } from './usuario.entity';
 import { UsuarioLogin } from './usuario.login';
 
