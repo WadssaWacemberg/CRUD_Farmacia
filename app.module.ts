@@ -3,6 +3,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigModule } from '@nestjs/config';
 import { CategoriaModule } from './src/categoria/module/categoria.module'; 
 import { ProdutoModule } from './src/produto/module/produto.module';
+import { UsuarioModule } from './src/usuario/usuario.module';
 @Module({
   imports: [
     ConfigModule.forRoot(),
@@ -18,6 +19,7 @@ import { ProdutoModule } from './src/produto/module/produto.module';
     }),
     CategoriaModule,
     ProdutoModule,
+    UsuarioModule,
   ],
   controllers: [],
   providers: [],

@@ -4,6 +4,7 @@ import { Categoria } from "../../categoria/entities/categoria.entity";
 
 @Entity({ name: 'tb_produtos' })
 export class Produto {
+    [x: string]: any;
     @PrimaryGeneratedColumn()
     id!: number;
 
