@@ -23,12 +23,19 @@
     "@nestjs/common": "^11.1.19",
     "@nestjs/config": "^4.0.4",
     "@nestjs/core": "^11.1.19",
+<<<<<<< HEAD
+=======
+    "@nestjs/mapped-types": "*",
+>>>>>>> Configurando-o-Projeto
     "@nestjs/platform-express": "^11.1.19",
     "@nestjs/typeorm": "^11.0.1",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.0",
     "mysql2": "^3.0.0",
+<<<<<<< HEAD
     "pg": "^8.20.0",
+=======
+>>>>>>> Configurando-o-Projeto
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.2",
     "typeorm": "^0.3.17"

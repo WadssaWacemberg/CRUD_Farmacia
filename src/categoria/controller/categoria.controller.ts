@@ -6,6 +6,7 @@ import { Categoria } from "../entities/categoria.entity";
 
 export class CategoriaController {
     constructor(private readonly categoriaService: CategoriaService) { }
+    
 
     @Get()
     @HttpCode(HttpStatus.OK)

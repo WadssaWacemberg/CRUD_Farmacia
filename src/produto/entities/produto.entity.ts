@@ -4,6 +4,11 @@ import { Categoria } from "../../categoria/entities/categoria.entity";
 
 @Entity({ name: 'tb_produtos' })
 export class Produto {
+    [x: string]: any;
+<<<<<<< HEAD
+=======
+    [x: string]: any;
+>>>>>>> Configurando-o-Projeto
     @PrimaryGeneratedColumn()
     id!: number;
 
