@@ -12,7 +12,7 @@ import { UsuarioModule } from './src/usuario/usuario.module';
       type: 'postgres', 
       url: process.env.DATABASE_URL, 
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
-      synchronize: true, 
+      synchronize: true,
       autoLoadEntities: true,
       extra: {
         ssl: {
